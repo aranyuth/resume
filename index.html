@@ -25,6 +25,13 @@
 
 		<!-- Custom styles for this template -->
 		<link href="css/resume.min.css" rel="stylesheet" />
+
+		<style>
+			body {
+				background-color: white;
+			}
+		</style>
+		<script type="text/javascript" src="js/change_resume.js"></script>
 	</head>
 
 	<body id="page-top">
@@ -86,7 +93,7 @@
 				id="about"
 			>
 				<div class="w-100">
-					<h1 class="mb-0">
+					<h1 id="myname" class="mb-0">
 						Aranyuth
 						<span class="text-primary">Thitakantho</span> <br />
 					</h1>
@@ -97,6 +104,7 @@
 						My Nick Name is Ven.O. I am experienced in developing web
 						application for 3 years.
 					</p>
+
 					<div class="social-icons">
 						<a href="#">
 							<i class="fab fa-linkedin-in"></i>
@@ -111,6 +119,19 @@
 							<i class="fab fa-facebook-f"></i>
 						</a>
 					</div>
+				</div>
+				<div>
+					<button onclick="document.getElementById('skills').remove()">
+						Delete Skills
+					</button>
+					<button
+						onclick="document.getElementById('myname').innerHTML = 'Nattapon Nitti'"
+					>
+						Change Name
+					</button>
+					<button onclick="document.body.style.backgroundColor = '#b3ffd9'">
+						Change Backgroud Color
+					</button>
 				</div>
 			</section>
 
@@ -129,12 +150,9 @@
 						<div class="resume-content">
 							<h3 class="mb-0">Web Developer</h3>
 							<p>
-								Bring to the table win-win survival strategies to ensure
-								proactive domination. At the end of the day, going forward, a
-								new normal that has evolved from generation X is on the runway
-								heading towards a streamlined cloud solution. User generated
-								content in real-time will have multiple touchpoints for
-								offshoring.
+								For last many years ago. I had done a lot of websites by using
+								HTML, PHP. But at present, my web programming skills are old but
+								it can be use to adapt in some kind of job.
 							</p>
 						</div>
 						<div class="resume-date text-md-right">
@@ -148,11 +166,9 @@
 						<div class="resume-content">
 							<h3 class="mb-0">Web Designer</h3>
 							<p>
-								Podcasting operational change management inside of workflows to
-								establish a framework. Taking seamless key performance
-								indicators offline to maximise the long tail. Keeping your eye
-								on the ball while performing a deep dive on the start-up
-								mentality to derive convergence on cross-platform integration.
+								I usually design graphic for using in Application which I have
+								written. I can use Photoshop, Illustrator for designing web
+								pages.
 							</p>
 						</div>
 						<div class="resume-date text-md-right">
